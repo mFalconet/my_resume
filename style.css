@@ -3,8 +3,7 @@ html {
 }
 
 body {
-  /* size: a4; */
-  width: 978px;
+  width: 900px;
   background-color: #fff;
   font-family: sans-serif;
   margin: 5px auto;
@@ -30,8 +29,6 @@ footer {
   height: 35px;
   padding: 10px;
   font-style: italic;
-  /* display: flex;
-  align-items: center; */
 }
 
 .header-text {
