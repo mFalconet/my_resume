@@ -120,7 +120,7 @@ p {
 /* CONTACT STYLE */
 
 .body-contact {
-  width: 600px;
+  width: 500px;
 }
 
 .back-button {
@@ -131,6 +131,6 @@ p {
   align-items: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   position: relative;
-  bottom: 10px;
-  left: 585px;
+  bottom: 15px;
+  left: calc(100% + 5px);
 }
