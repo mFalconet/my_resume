@@ -54,6 +54,7 @@
   .container-top > div {
     text-align: right;
     width: 70%;
+    padding-right: 5px;
   }
 
   .badge-pic {
@@ -70,6 +71,11 @@
     font-size: 1.9rem;
     letter-spacing: 2.5px;
     margin-bottom: 10px;
+  }
+
+  p {
+    margin: 5px 0;
+    padding-right: 5px;
   }
 
   .table-logo img {
