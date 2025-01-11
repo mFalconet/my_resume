@@ -1,0 +1,115 @@
+/* CONTACT-PAGE STYLE */
+
+.contact-body {
+  width: 500px;
+  padding: 70px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.contact-body h1 {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-style: normal;
+  margin: 0;
+}
+
+.contact-main {
+  margin-top: 20px;
+  position: relative;
+}
+
+.box {
+  display: inline-block;
+}
+
+.info {
+  width: 60%;
+}
+
+.info p {
+  margin-top: 5px;
+}
+
+.info a {
+  text-decoration: none;
+}
+
+#linkedin-link {
+  color: #2d0ea9;
+  text-decoration: underline;
+}
+
+.image {
+  width: 40%;
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+
+.image img {
+  max-width: 200px;
+  border-radius: 100px;
+}
+
+.back-button {
+  width: 140px;
+  height: 30px;
+  text-align: right;
+  font-family: "Gantari", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.back-button a {
+  width: 140px;
+  height: 30px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.back-button img {
+  margin-right: 3px;
+}
+
+/* CONTACT-PAGE MEDIA QUERIES */
+
+/* @media (max-width: 372px) {
+  .contact-body {
+    margin: 0;
+    border-radius: 0;
+  }
+} */
+
+@media (max-width: 650px) {
+  .contact-body {
+    width: 350px;
+    padding: 10px 10px 50px 10px;
+  }
+
+  .info {
+    width: 90%;
+  }
+
+  .image {
+    width: 10%;
+    height: 100%;
+  }
+
+  .image img {
+    /* display: none; */
+    max-width: 140px;
+    margin-bottom: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}

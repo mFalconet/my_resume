@@ -1,0 +1,174 @@
+html {
+  background-color: #f0ecff;
+  font-family: "Spline Sans", sans-serif;
+  font-size: 12.5pt;
+}
+
+body {
+  width: 900px;
+  background-color: #fff;
+  margin: 5px auto;
+  padding: 90px 80px 100px 80px;
+  border: 1px solid #525372;
+  border-radius: 5px;
+}
+
+.header-and-footer {
+  background-color: #525372;
+  color: #f0ecff;
+  width: calc(100% - 21px);
+  height: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  font-style: italic;
+  font-family: "Gantari", sans-serif;
+  text-align: right;
+  position: relative;
+}
+
+header div {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+footer div {
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+
+header hr {
+  width: calc(100% - 21px);
+  position: absolute;
+  bottom: 0px;
+}
+
+footer hr {
+  width: calc(100% - 21px);
+  position: absolute;
+  top: 0px;
+}
+
+hr {
+  height: 1px;
+  background-color: #fff;
+  border: 0;
+  margin: 6px 0;
+}
+
+.container-top {
+  position: relative;
+  margin: 15px 0 25px;
+}
+
+.badge-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  text-decoration: underline 1px;
+  text-underline-offset: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #525372;
+  border-bottom: 1px solid #525372;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin: 9px 0 15px;
+}
+
+h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: justify;
+  padding-right: 20px;
+}
+
+a {
+  color: #525372;
+}
+
+.table-box {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.table-logo {
+  margin-right: 10px;
+  justify-content: center;
+  text-align: center;
+  /* border: 1px solid #adaab6; */
+}
+
+.table-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.list {
+  position: relative;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #877f9e;
+  border-radius: 50%;
+  position: absolute;
+  top: 6px;
+  left: -34.5px;
+}
+
+.line {
+  width: 2px;
+  height: calc(100% - 2px);
+  background-color: #f0ecff;
+  position: absolute;
+  top: 2px;
+  left: -31px;
+}
+
+#languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.languages {
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.languages img {
+  width: 20px;
+  height: 20px;
+}
+
+.language-name {
+  width: 60px;
+  margin-left: 15px;
+}
+
+.language-level {
+  width: 60px;
+  text-align: center;
+}
